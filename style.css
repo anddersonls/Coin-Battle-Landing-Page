@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-image: radial-gradient(circle at -4.17% 4.55%, #5d5a4f 0, #1d283d 50%, #00002b 100%);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 23px;
+    gap:250px;
+  }
+
+  .logo{
+    width:50px;
+  }
+
+  .nav-item{
+    color:white;
+    padding: 20px 40px;
+    font-size:20px;
+  }
+  
+.nav-item:hover{
+    background-color:#2b416a;
+}
+
+#main{
+    display: flex;
+    border-top: 0.5px solid white;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#conteudo{
+    display:flex;
+    flex-direction: column;
+    padding-right: 50px;
+    color:white;
+    gap:30px;
+    font-size: 25px;
+    box-sizing:border-box;
+    padding-left:200px;
+}
+
+#conteudo-imagem{
+    padding-right: 200px;
+}
+
+#link-jogo{
+    color:white;
+}
+
+#rodape{
+    border-top: 0.5px solid white;
+    margin-top: 50px;
+}
+
+#rodape-conteudo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:30px;
+    padding:15px 0;
+}
+
+#rodape-texto{
+    color:white;
+    font-size:20px;
+}
